@@ -1,0 +1,20 @@
+Resumen.
+
+Se tienen las variables con los porcentajes a calcular dependiendo de la edad del solicitante, la edad del conyuge y la cantidad de hijos.
+Se solicita la información a travez de prompt, nombre, edad, edad del conyuge, cantidad de hijos.
+se crea una variable para recibir cada dato obtenidos
+se convierten las respuestas a mayusculas con toUpperCase()
+se crea una condicion If para saber si la condicion es verdadera o no y devolver el valor de respuesta.
+para asegurar las respuestas solicitadas en cantidades en numeros utilizamos parseInt()
+este procedimiento lo repetimos para edad, casado e hijos.
+Creamos una funcion donde se confirma que este dentro de los rangos de edad establecidos y asi multiplicar el precio base con el pocentaje
+correspondiente a la cantidad de la edad, y este nos dara la cantidad de recargo por edad.
+Utilizamos esta misma funcion y la aplicamos en el calculo del recargo por edad del conyuge y la cantidad de hijos.
+creamos una variable donde almacenamos los recargos totales y con Alert() mostramos los resultados al cliente.
+creamos una variable en la cual preguntamos con prompt si se quiere seguir con una nueva cotizacion, en caso de que si,
+se configura una propiedad setInterval a la variable con un intervalo de 0.5 segundos para que se recarge la pagina,
+en caso de que no se quiera seguir escribimos Salir y a travez de un Alert() damos el ultimo mensaje.
+
+
+
+ 
